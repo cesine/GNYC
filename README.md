@@ -12,11 +12,21 @@
 
 ## What does the project do?
 This project helps people in New York help the enviornment by volunteering and  creating their own landscape.
+Also, people can donate money.
+
+<img src="screenshots/home.png"/>
+
+<img src="screenshots/design.png"/>
+
+<img src="screenshots/vote.png"/>
 
 
 ## Why are you passionate about this idea?
+we are passionate about this idea because due to deforestation and pollution, our enviornmet needs help by everyone 
+to help.
 
 ## How did you build this idea?
+we built this idea by 
 
 ## How does it work?
 
@@ -27,6 +37,7 @@ This project helps people in New York help the enviornment by volunteering and  
 ## What did you learn today?
 
 ## What would you add if you had more time and why?
+
 
 
 Collection of image ideas
