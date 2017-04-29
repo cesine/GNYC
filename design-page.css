@@ -1,0 +1,13 @@
+@import "style.css";
+
+#landscape{ Height:300px;
+       Width:500px;
+}
+#symbols{height:300px;
+         width:500px;
+         
+    background-color:blue;
+}
+
+.background{Height:300px;
+       Width:500px;}
