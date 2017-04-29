@@ -8,11 +8,17 @@
     margin: 50px;
 }
 
+.percentage {
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
 .voting p {
    font-size: 50px;
 }
 
 .thumbs-up, .thumbs-down {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 40px;
 }
