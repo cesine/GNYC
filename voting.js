@@ -19,6 +19,7 @@ var imageTotals = {
 }
 
 function thumbsUp(imageName){
+    console.log("is thumbs up running?");
     imageScore[imageName] += 1;
     imageTotals[imageName] += 1;
     displayScore(imageName);
@@ -31,35 +32,16 @@ function thumbsUp(imageName){
  }
  
  function displayScore(imageName) {
-     console.log("is this running?");
-   $("#"+"imageName"+" p").html(imageScore[imageName])
+    $("#"+ imageName +" p").html(imageScore[imageName]);
+    $("#"+ imageName + " p").append(" %" + Math.floor((imageScore[imageName]/imageTotals[imageName])*100));
  }
  
- $("#A .thumbs-up").click(thumbsUp("A"));
- $("#A .thumbs-down").click(thumbsDown("A"));
+ $("#A .thumbs-up").click(function(){thumbsUp("A")});
+ $("#A .thumbs-down").click(function(){thumbsDown("A")});
+ 
+ $("#A .thumbs-up").click(function(){thumbsUp("")});
+ $("#A .thumbs-down").click(function(){thumbsDown("A")});
  
 
-function thumbsUp(imageName){
-    imageScore[imageName] += 1;
-    imageTotals[imageName] += 1;
-} 
 
- 
- function thumbsDown(imageName){
-     imageScore[imageName] -= 1;
-     imageTotals[imageName] += 1;
- }
- 
- $('#thumbsUpA').click(thumbsUp("B"));
- $("#thumbsDownA").click(thumbsDown("B"));
-
-
-
-  
-  
-  
-  
-  
-  
-    
 })

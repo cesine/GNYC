@@ -1,15 +1,11 @@
 @import "style.css";
  
-body{
-    color: yellow;
-}
-
+ body{
+     color:yellow;
+ }
+ 
 .form-group{
     font-size: 20px;
-    margin: auto;
+      margin: auto;
     padding: 140px;
-}
-
-#dob{
-    color: black;
 }

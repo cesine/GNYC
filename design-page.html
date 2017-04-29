@@ -3,7 +3,7 @@
     <head>
         <title> Design Page </title>
        
-        <link rel="stylesheet" type="text/css" href="design-page.css">
+        <link rel="stylesheet" type="text/css" href="design-page.css" />
         <script src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
@@ -22,24 +22,24 @@
     </div>
         
     <h1 class="design"> Design Your Own Landscape</h1>
- 
-    <button class="btn btn-success" id="closedspace"> Closed Spaces </button>
-     <button class="d btn btn-info" id="openspace"> Open Space </button>
- 
-  <div id="container"> 
+    <p>
+        <button class="btn btn-success btn-lg" id="closedspace"> Closed Spaces </button>
+        <span class="design-button-spacer" ></span>
+         <button class="d btn btn-info btn-lg" id="openspace"> Open Space </button>
+    </p>
+  <div id="container" class="row"> 
+
+
     
-    <div id="landscape" 
+    <div id="landscape"  class="col-md-8"
       ondrop="drop(event)" 
     ondragover="allowDrop(event)"> 
-   
-   
-    <img class="background" /> 
-   
+        <img class="background" /> 
     </div>
     
     
    
-    <div id="key">
+    <div id="key" class="col-md-4">
         <ul id="list">
             <li><div id="a" class="triangle shape" ondragstart="drag(event)" draggable="true"></div>=Tree</li>
             <li><div id="b" class="circle shape"ondragstart="drag(event)" draggable="true"></div>=bush</li>
@@ -52,20 +52,11 @@
             
         </ul>
     </div>
-   
-    <button id=submit> Submit </button>
+   <p>
+     <button class="btn-lg btn btn-default" id="submit"> Submit </button>  
+   </p>
+    
      
-        
-    <div id="symbols">
-        <div id="a" class="triangle shape" ondragstart="drag(event)" draggable="true"></div>
-        <div id="b" class="circle shape"ondragstart="drag(event)" draggable="true"></div>
-        <div id="c" class="square shape"ondragstart="drag(event)" draggable="true"></div>
-        <div id="d" class="oval shape"ondragstart="drag(event)" draggable="true"></div>
-        <div id="e" class="star shape"ondragstart="drag(event)" draggable="true"></div>
-        <div id="f" class="line shape"ondragstart="drag(event)" draggable="true"></div>
-        <div id="g" class="rectangle shape"ondragstart="drag(event)" draggable="true"></div>
-        
-    </div>
  </div>
  
  

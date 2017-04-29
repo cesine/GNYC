@@ -1,7 +1,7 @@
 @import "style.css";
 
 #landscape{
-             width:90%;
+             width:70%;
              position:relative;
              display:inline-block;
        }
@@ -39,6 +39,12 @@ margin:auto ;
     position:absolute;
 
 }
+.key{background-color: white;
+}
+.design-button-spacer{
+     padding-right:1em; 
+     padding-left:1em;
+}
 
 .triangle{
    
@@ -71,5 +77,5 @@ margin:auto ;
     font-size: 20px;
     color: yellow;
    display:inline-block;
-   width:10%;
+   width:30%;
 }
