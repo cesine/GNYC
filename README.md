@@ -1,29 +1,32 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
 
-To get you started, we included a small hello world application.
+## Team
 
-1) Open the hello-world.html file
+* Layla - Project Manager
+* Lisette - Developer 
+* Maya - Developer
+* Rosanique - Designer
+* Syndra - Designer
+* Tasnim - Designer
 
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
+## What does the project do?
+This project helps people in New York help the enviornment by volunteering and  creating their own landscape.
 
 
-## Support & Documentation
+## Why are you passionate about this idea?
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+## How did you build this idea?
+
+## How does it work?
+
+## Who would use this project and why?
+
+## What were challenges you ran into and why?
+
+## What did you learn today?
+
+## What would you add if you had more time and why?
 
 
 Collection of image ideas

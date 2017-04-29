@@ -1,15 +1,21 @@
 @import "style.css";
  
 body{
-    color: yellow;
+    color: black;
 }
 
 .form-group{
-    font-size: 20px;
-    margin: auto;
-    padding: 140px;
+    font-size: 25px;
+    left: 140px;
 }
 
 #dob{
     color: black;
+}
+
+#volunteer, #fund{
+    margin:60px;
+}
+hr{
+    height:10px;
 }

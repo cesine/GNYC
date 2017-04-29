@@ -1,18 +1,98 @@
 @import "style.css";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 
 #logo{
     text-align: center;
+    text-shadow: 2px 2px 5px white,
+    2px 6px 5px white,
+    -2px 2px 5px white,
+    6px 2px 5px white,
+    -6px 2px 5px white;
+    font-size: 560%;
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    top: 50px;
+    right: 665px;
+}
+
+img{
+    width: 220px;
+    top: 10px;
+    right: 655px;
 }
 
 #intro{
-    width: 80%;
-    border: 2px solid black;
-    border-radius: 5px 5px 5px 5px;
+    border: 4px solid #61CEE3;
+    border-radius: 20px 20px 20px 20px;
     padding: 10px 30px 10px 30px;
-    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.9);;
+    margin: auto;
+    width: 50%;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    color: #70223C;
 }
 
 p{
     text-align: center;
+}
+
+.bubble{
+    background-repeat: no-repeat;
+    width: 200px;
+	height: 200px;
+	border-radius: 1000px;
+	border: 6px solid #F8D12E;
+}
+
+#pic-1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8b/Battery_Park_City_007.JPG");
+    background-size: 300px;
+    position: fixed;
+    bottom: -650;
+    right: -300;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+#pic-2{
+    background-image: url("https://c1.staticflickr.com/4/3049/2999130649_d56c1bd035_b.jpg");
+    background-size: 300px;
+    position: fixed;
+    bottom: 500px;
+    right: 250px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+#pic-3{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/05/Southwest_corner_of_Central_Park%2C_looking_east%2C_NYC.jpg");
+    background-size: 300px;
+    position: fixed;
+    bottom: 300px;
+    right: 100px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+#pic-4{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c9/Inwood%2C_Manhattan%2C_NYC.JPG");
+    background-size: 300px;
+    position: fixed;
+    bottom: 500px;
+    right: 1100px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+#pic-5{
+    background-image: url("https://c1.staticflickr.com/7/6004/5922901497_400c0f6312_b.jpg");
+    background-size: 300px;
+    position: fixed;
+    bottom: 100px;
+    right: 1150px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
 }

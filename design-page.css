@@ -14,7 +14,7 @@
 .background{
     Height:600px;
     Width:100%;
-    
+    background-color:white;
 }
 
 #test{ background-color: blue;
@@ -39,8 +39,8 @@ margin:auto ;
     position:absolute;
 
 }
-.key{background-color: white;
-}
+
+
 .design-button-spacer{
      padding-right:1em; 
      padding-left:1em;
@@ -75,7 +75,12 @@ margin:auto ;
 
 #key{
     font-size: 20px;
-    color: yellow;
+    color: black;
    display:inline-block;
    width:30%;
+   background-color:white;
+   
+}
+#list{
+   list-style-type:none;
 }
