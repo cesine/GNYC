@@ -1,23 +1,31 @@
 @import "style.css";
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
-body{
-    background-image: url("https://pixabay.com/photo-720024/");
-
-}
 
 #logo{
     text-align: center;
-    font-size: 520%;
+    text-shadow: 2px 2px 5px white, 2px 6px 5px white, 6px 2px 5px white;
+    font-size: 550%;
     font-family: 'Abril Fatface', cursive;
 }
 
+img{
+    width: 100px;
+    position: absolute;
+    bottom:;
+    right:;
+}
+
 #intro{
-    width: 80%;
     border: 2px solid black;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 20px 20px 20px 20px;
     padding: 10px 30px 10px 30px;
-    margin: 10px;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+    
 }
 
 h2{
@@ -28,68 +36,46 @@ p{
     text-align: center;
 }
 
-#menu-nav {
-    float: right;
-    width: 100%;
-    height: auto;
-    margin: 30px 0px;
-    background-color: #ecf0f1;
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+.bubble{
+    background-repeat: no-repeat;
+    width: 200px;
+	height: 200px;
+	border-radius: 1000px;
+	border: 6px solid #54530d;
 }
 
-#navigation-bar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    border-radius: 4px;
-    overflow: hidden;
-    text-align: center;
-}
-
-#navigation-bar li {
-    padding: 0;
-    margin: 0;
-    width: 20%;
-    display: inline-block;
-}
-
-#navigation-bar a {
-    color: #848484;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
-    display: block;
-    position: relative;
-    transition: all 0.3s ease;
-}
-
-#navigation-bar a:hover {
-    color: DeepSKyBlue;
-}
-
-#navigation-bar a:before {
-    content: '';
-    transition: all .4s ease-in-out;
+#pic-1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8b/Battery_Park_City_007.JPG");
+    background-size: 300px;
     position: absolute;
-    right: 50%;
-    left: 50%;
-    bottom: 0;
-    display: block;
-    height: 2px;
-    background-color: green;
+    bottom: -650;
+    right: -300;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
 }
 
-#navigation-bar li:hover a:before,
-#navigation-bar a:hover:before {
-    right: 0;
-    left: 0;
+#pic-2{
+    background-image: url("https://c1.staticflickr.com/4/3049/2999130649_d56c1bd035_b.jpg");
+    background-size: 300px;
+    position: absolute;
+    bottom: 500px;
+    right: 250px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
 }
 
-#navigation-bar span {
-    display: block;
+#pic-3{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/05/Southwest_corner_of_Central_Park%2C_looking_east%2C_NYC.jpg");
+    background-size: 300px;
+    position: absolute;
+    bottom: 300px;
+    right: 100px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+#pic-4{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c9/Inwood%2C_Manhattan%2C_NYC.JPG");
+    background-size: 300px;
+    position: absolute;
+    bottom: 300px;
+    right: 1200px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
 }

@@ -19,17 +19,55 @@
                 <li class='menu-sub-nav'><a href='gnyc.html'><i class= 'gnyc.html'></i><span>Home</span></a></li>
             </ul>
     </div>
+    </div>
         
     <h1 class="design"> Design Your Own Landscape</h1>
  
     <button class="btn btn-success" id="closedspace"> Closed Spaces </button>
      <button class="d btn btn-info" id="openspace"> Open Space </button>
-  
-    <div id="landscape"> 
-    <img class="background"> 
+ 
+  <div id="container"> 
+    
+    <div id="landscape" 
+      ondrop="drop(event)" 
+    ondragover="allowDrop(event)"> 
+   
+   
+    <img class="background" /> 
    
     </div>
     
+    
+   
+    <div id="key">
+        <ul id="list">
+            <li><div id="a" class="triangle shape" ondragstart="drag(event)" draggable="true"></div>=Tree</li>
+            <li><div id="b" class="circle shape"ondragstart="drag(event)" draggable="true"></div>=bush</li>
+            <li><div id="c" class="square shape"ondragstart="drag(event)" draggable="true"></div>=Bench</li>
+            <li><div id="d" class="oval shape"ondragstart="drag(event)" draggable="true"></div>=Pond</li>
+            <li><div id="e" class="star shape"ondragstart="drag(event)" draggable="true"></div>=Flowers</li>
+            <li><div id="f" class="line shape"ondragstart="drag(event)" draggable="true"></div>=Bike trail</li>
+            <li><div id="g" class="rectangle shape"ondragstart="drag(event)" draggable="true"></div>=Board Walk</li>
+            
+            
+        </ul>
+    </div>
+   
+    <button id=submit> Submit </button>
+     
+        
+    <div id="symbols">
+        <div id="a" class="triangle shape" ondragstart="drag(event)" draggable="true"></div>
+        <div id="b" class="circle shape"ondragstart="drag(event)" draggable="true"></div>
+        <div id="c" class="square shape"ondragstart="drag(event)" draggable="true"></div>
+        <div id="d" class="oval shape"ondragstart="drag(event)" draggable="true"></div>
+        <div id="e" class="star shape"ondragstart="drag(event)" draggable="true"></div>
+        <div id="f" class="line shape"ondragstart="drag(event)" draggable="true"></div>
+        <div id="g" class="rectangle shape"ondragstart="drag(event)" draggable="true"></div>
+        
+    </div>
+ </div>
+ 
  
 
          </body>

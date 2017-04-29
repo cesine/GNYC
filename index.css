@@ -1,0 +1,18 @@
+@import "style.css";
+
+
+#logo{
+    text-align: center;
+}
+
+#intro{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+}

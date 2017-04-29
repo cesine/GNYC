@@ -1,5 +1,9 @@
 @import "style.css";
  
 body{
-    color:blue;
+    color: yellow;
+}
+
+.form-group{
+    font-size: 20px;
 }

@@ -1,13 +1,75 @@
 @import "style.css";
 
-#landscape{ Height:300px;
-       Width:500px;
-}
-#symbols{height:300px;
-         width:500px;
-         
-    background-color:blue;
+#landscape{
+             width:90%;
+             position:relative;
+             display:inline-block;
+       }
+
+#symbols{
+    height:300px;
+    border:inset;
 }
 
-.background{Height:300px;
-       Width:500px;}
+.background{
+    Height:600px;
+    Width:100%;
+    
+}
+
+#test{ background-color: blue;
+height:50px;
+width:50px;
+}
+       
+       
+#container{ width:70%;
+margin:auto ;
+}
+.shape{
+    display:inline-block;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+}
+.reflection{
+    position:absolute;
+
+}
+
+.triangle{
+   
+    background-image: url("http://www.iconsdb.com/icons/preview/green/triangle-xxl.png") ;
+    
+}
+.circle{
+    background-image:url("http://www.clker.com/cliparts/u/g/F/R/X/9/green-circle-hi.png")
+}
+.square{
+    background-image:url("https://www.ifitspaperonline.com/7478-thickbox_default/calligraphy-pen-light-brown.jpg");
+}
+.oval{
+    background-image:url("http://www.stickylife.com/images/u/f94c3d66a21040629dc4eae0345550f9-800.png");
+    background-repeat: no-repeat;
+    
+}
+.star{
+     background-image:url("http://www.iconsdb.com/icons/preview/deep-pink/star-xxl.png");
+}
+.line{
+    background-image:url("https://img.clipartfest.com/9d3e8eecbace3d8596ece8fbe9d77d66_line-clipart-black-line-clip-art_900-900.png")
+}
+.rectangle{
+    background-image:url("http://www.clipartkid.com/images/544/preview-gzZBEM-clipart.png");
+    background-repeat: no-repeat;
+    }
+
+#key{
+    font-size: 20px;
+    color: yellow;
+   display:inline-block;
+   width:10%;
+}
